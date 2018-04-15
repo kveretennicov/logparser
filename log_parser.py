@@ -238,5 +238,4 @@ if __name__ == '__main__':
         help='path to the JSON report file to be created; use "-" for stdout')
     args = parser.parse_args()
     r = main(args.input_dir_path, args.output_file_path)
-    print('done')
     sys.exit(r)
